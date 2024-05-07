@@ -1,6 +1,5 @@
 :root{
-    --f1_red: hsl(349, 100%, 45%);
-    --footer:	hsl(240, 6%, 23%);
+    --f1_red: hsl(349, 100%, 45%) ;
 }
 *{
     padding: 0;
@@ -59,7 +58,7 @@ body{
     margin: 0 0 0 22rem;
 }
 .navi{
-    position: fixed;
+    position: sticky;
 }
 .nad_nav ul{
     display: block;
@@ -82,10 +81,4 @@ body{
 }
 .nad_nav{
     display: flex;
-}
-footer{
-    bottom: 0;
-    width: 100vh;
-    
-
 }
